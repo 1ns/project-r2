@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "21d50a2ce8be18349eafcfe7e0751dd8",
-    "content-hash": "203fdcc6fd7a9deab403c26b2683a395",
+    "hash": "71b6dda2d64710e22a6d4cd6b2930f18",
+    "content-hash": "d4062eb17c4d4f98c23319e1d0bcd06c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2064,6 +2064,52 @@
             }
         },
         {
+            "name": "drupal/displayrole",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/displayrole",
+                "reference": "ebe91d7e251f0b78d7a91d4d5c8719c4a8991442"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta1+1-dev",
+                    "datestamp": "1480375980",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "gnuget",
+                    "homepage": "https://www.drupal.org/user/992990"
+                },
+                {
+                    "name": "mlncn",
+                    "homepage": "https://www.drupal.org/user/64383"
+                }
+            ],
+            "description": "Allows administrators to configure roles to display on user profiles.",
+            "homepage": "https://www.drupal.org/project/displayrole",
+            "support": {
+                "source": "http://cgit.drupalcode.org/displayrole"
+            },
+            "time": "2016-11-28 23:30:27"
+        },
+        {
             "name": "drupal/ds",
             "version": "3.1.0",
             "source": {
@@ -2269,6 +2315,71 @@
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             },
             "time": "2017-03-15 17:04:08"
+        },
+        {
+            "name": "drupal/metatag",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/metatag",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "f64745456579bb0ff8139a38d8d5de673868d94c"
+            },
+            "require": {
+                "drupal/core": "*",
+                "drupal/token": "^1.0"
+            },
+            "require-dev": {
+                "drupal/devel": "^1.0",
+                "drupal/metatag_dc": "*",
+                "drupal/metatag_open_graph": "*",
+                "drupal/restui": "*",
+                "restui/restui": "^1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1501584761",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "See contributors",
+                    "homepage": "https://www.drupal.org/node/640498/committers",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                }
+            ],
+            "description": "Manage meta tags for all entities.",
+            "homepage": "https://www.drupal.org/project/metatag",
+            "keywords": [
+                "php",
+                "seo"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/metatag",
+                "issues": "http://drupal.org/project/issues/metatag"
+            }
         },
         {
             "name": "drupal/page_manager",
@@ -7160,6 +7271,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/custom_formatters": 20,
+        "drupal/displayrole": 20,
         "drupal/libraries": 20,
         "drupal/page_manager": 20
     },
