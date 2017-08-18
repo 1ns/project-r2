@@ -1,21 +1,21 @@
-#Project R2(Nome temporário)#
+# Project R2(Nome temporário)
 -
 
-##InformaÃ§Ãµes do Projeto##
+## Informações do Projeto
 
-- Ambiente de produÃ§Ã£o: Nenhum ainda
+- Ambiente de produção: Nenhum ainda
 - Ambiente de desenvolvimento: VM / Pantheon(soon)
 
-- RepositÃ³rio de cÃ³digo principal: https://github.com/1ns/project-r2
+- Repositório de código principal: https://github.com/1ns/project-r2
 - Issue tracker: https://github.com/1ns/project-r2/issues
 
-##ENVOLVIDOS##
+## ENVOLVIDOS
 - [Alan Amorim (ins)](mailto:alan.amorim@live.com) - Arquiteto e Desenvolvedor
 
-##InstruÃ§Ãµes de desenvolvimento##
+## Instruções de desenvolvimento
 
-O tema principal deste projeto conta como base o Bootstrap, e Ã© chamado Kiyomi.
+O tema principal deste projeto conta como base o Bootstrap, e é chamado Kiyomi.
 
 
-##TODO##
-- Colocar informaÃ§Ãµes prÃ¡ticas de desenvolvimento do projeto e as aplicações utilizadas.
+## TODO
+- Colocar informações práticas de desenvolvimento do projeto e as aplicações utilizadas.
