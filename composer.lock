@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "16437f8c6cf51322e0d08c5528a2e2f1",
-    "content-hash": "15fc95774b296a44646932a1bdf14d7a",
+    "hash": "4540defe8eca66545c4166eb2b276d19",
+    "content-hash": "157c63d6e6a53dfe2839f58ed39e2d57",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2239,6 +2239,88 @@
                 "source": "http://cgit.drupalcode.org/displayrole"
             },
             "time": "2016-11-28 23:30:27"
+        },
+        {
+            "name": "drupal/dropzonejs",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/dropzonejs",
+                "reference": "68e83524f213ad57b7bdef2a2ebfda914e5c0ba9"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "require-dev": {
+                "drupal/entity_browser": "*"
+            },
+            "suggest": {
+                "enyo/dropzone": "Required to user drupal/dropzonejs. Dropzone is an easy to use drag'n'drop library."
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha7+2-dev",
+                    "datestamp": "1497261242",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Janez Urevc",
+                    "homepage": "https://drupal.org/u/slashrsm",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Christian Fritsch",
+                    "homepage": "https://drupal.org/u/chrfritsch",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Primoz Hmeljak",
+                    "homepage": "https://drupal.org/u/Primsi",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/1998478/committers",
+                    "role": "contributor"
+                },
+                {
+                    "name": "slashrsm",
+                    "homepage": "https://www.drupal.org/user/744628"
+                },
+                {
+                    "name": "wouters_f",
+                    "homepage": "https://www.drupal.org/user/721548"
+                },
+                {
+                    "name": "zkday",
+                    "homepage": "https://www.drupal.org/user/888644"
+                }
+            ],
+            "description": "Drupal integration for DropzoneJS - An open source library that provides drag’n’drop file uploads with image previews.",
+            "homepage": "https://www.drupal.org/project/dropzonejs",
+            "keywords": [
+                "DropzoneJS",
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://www.drupal.org/project/dropzonejs",
+                "issues": "https://www.drupal.org/project/issues/dropzonejs",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            },
+            "time": "2017-06-12 09:48:31"
         },
         {
             "name": "drupal/ds",
@@ -7937,6 +8019,7 @@
     "stability-flags": {
         "drupal/custom_formatters": 20,
         "drupal/displayrole": 20,
+        "drupal/dropzonejs": 20,
         "drupal/libraries": 20,
         "drupal/page_manager": 20
     },
