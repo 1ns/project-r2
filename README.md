@@ -1,6 +1,6 @@
 # Project R2
 
-Trata-se de um escopo cru para projetos futuros, contendo módulos essenciais e um sub tema em Bootstrap com Sass, Singularity, Breakpoint, LiveReload e Gulp.
+Trata-se de um escopo cru para projetos futuros, contendo módulos essenciais e um sub tema em Bootstrap com Sass, Singularity, Breakpoint, LiveReload, Gulp e Font Awesome (CDN).
 
 
 ## Informações do Projeto

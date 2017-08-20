@@ -22,3 +22,4 @@ regions:
 libraries:
   - 'kiyomi_night/global-styling'
   - 'kiyomi_night/bootstrap-scripts'
+  - 'kiyomi_night/font-awesome'
