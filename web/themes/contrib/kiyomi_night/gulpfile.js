@@ -25,11 +25,12 @@ var sass_config = {
 gulp.task('uglify', function() {
   return gulp.src('js/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('js_min'));
+    .pipe(gulp.dest('js_min'))
+    .pipe(livereload());
 });
 
 //Compiles sass
-gulp.task('scss', function () {
+gulp.task('sass', function () {
   gulp.src('./scss/**/*.scss')
     .pipe(plumber())
     .pipe(sourcemaps.init())
