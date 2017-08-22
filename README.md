@@ -10,12 +10,12 @@ Trata-se de um escopo cru para projetos futuros, contendo módulos essenciais e 
 - Repositório de código principal: https://github.com/1ns/project-r2
 - Issue tracker: https://github.com/1ns/project-r2/issues
 
-## ENVOLVIDOS
-- [Alan Amorim (ins)](mailto:alan.amorim@live.com) - Arquiteto e Desenvolvedor
+## Responsável
+- [Alan Amorim (ins)](mailto:alan.amorim@live.com)
 
 ## Instruções de desenvolvimento
 
-O tema principal deste projeto conta como base o Bootstrap, e é chamado Kiyomi.
+O tema principal deste projeto conta como base o Bootstrap, utilizando seu starterkit com Sass.
 Para trabalhar no tema, primeiro é necessário ter o nodejs instalado.
 
 ```sudo apt-get update && sudo apt-get install nodejs```
