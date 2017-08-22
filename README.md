@@ -7,8 +7,8 @@ Trata-se de um escopo cru para projetos futuros, contendo módulos essenciais e 
 
 - Ambiente de produção: Nenhum
 - Ambiente de desenvolvimento: VM / Pantheon(soon)
-- Repositório de código principal: https://github.com/1ns/project-r2
-- Issue tracker: https://github.com/1ns/project-r2/issues
+- Repositório de código principal: https://bitbucket.org/Insz/project-r2/
+- Issue tracker: https://bitbucket.org/Insz/project-r2/issues
 
 ## Responsável
 - [Alan Amorim (ins)](mailto:alan.amorim@live.com)
