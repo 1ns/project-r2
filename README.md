@@ -1,17 +1,17 @@
 # Project R2
 
-Trata-se de um escopo cru para projetos futuros, contendo módulos essenciais e um sub tema em Bootstrap com Sass, Singularity, Breakpoint, LiveReload, Gulp e Font Awesome (CDN).
+Trata-se de um escopo cru para projetos futuros utilizando Drupal 8.3x, contendo módulos essenciais e um sub tema em Bootstrap com Sass, Singularity, Breakpoint, LiveReload, Gulp e Font Awesome (CDN).
 
 
 ## Informações do Projeto
 
-- Ambiente de produção: Nenhum
-- Ambiente de desenvolvimento: VM / Pantheon(soon)
-- Repositório de código principal: https://bitbucket.org/Insz/project-r2/
-- Issue tracker: https://bitbucket.org/Insz/project-r2/issues
+- Repositório de código principal: https://github.com/1ns/project-r2
+- Issue tracker: https://github.com/1ns/project-r2/issues
+
 
 ## Responsável
 - [Alan Amorim (ins)](mailto:alan.amorim@live.com)
+
 
 ## Instruções de desenvolvimento
 
@@ -20,7 +20,8 @@ Para trabalhar no tema, primeiro é necessário ter o nodejs instalado.
 
 ```sudo apt-get update && sudo apt-get install nodejs```
 
-Entre na pasta do tema kiyomi_night e digite:
+Seguir [estas](https://drupal-bootstrap.org/api/bootstrap/starterkits%21sass%21README.md/group/sub_theming_sass/8) instruções em cima do tema *bootstrap_sass_starterkit*
+Entre na pasta do tema que você configurou e digite:
 
 ```npm install```
 
@@ -33,4 +34,4 @@ Você precisa ter seu webserver configurado pra rodar o site em r2.l, pois sem i
 
 
 ## TODO
-- Colocar informações práticas de desenvolvimento do projeto.
+- Colocar mais informações práticas de desenvolvimento do projeto.
